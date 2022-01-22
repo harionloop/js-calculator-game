@@ -1,0 +1,94 @@
+body {
+    background-color: slategrey;
+    /* box-sizing: border-box; */
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(9, 2, 49);
+}
+
+.container {
+    display: block;
+    background-color: rgb(220, 216, 243);
+    align-self: center;
+    padding: 15px;
+    margin: 100px auto;
+    border: 2px solid black;
+    box-shadow: 5px 10px 20px rgb(220, 216, 243);
+    width: 20%;
+    height: 100%;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px gray;
+    background-color: rgb(214, 214, 214);
+}
+
+button:active {
+    background-color: rgb(84, 74, 179);
+    color: white;
+}
+
+.screen {
+    padding: 2px;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    border: 2px solid black;
+    width: 100%;
+    height: 30px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.clear {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.number {
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    width: 100%;
+    height: 40px;
+}
+
+.operator {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.calculate {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.float {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
